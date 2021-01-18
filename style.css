@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.calcBody {
+    display: flex;
+}
+
+.display {
+    text-align: right;
+    margin: .5rem;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: .1rem;
+}
+
+
+.digitButtons {
+    display: grid;
+    grid-row: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5rem;
+    margin: .5rem;
+}
+
+.operatorButtons {
+    display: grid;
+    grid-gap: .5rem;
+    margin: .5rem;
+}
